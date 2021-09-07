@@ -24,7 +24,7 @@ export default function Features() {
             color="white"
           >
             <Icon
-              boxSize={6}
+              boxSize={4}
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -58,12 +58,12 @@ export default function Features() {
       justifyContent="center"
       alignItems="center"
     >
-      <Box py={12} bg={useColorModeValue("white", "gray.800")} rounded="xl">
+      <Box py={10} bg={useColorModeValue("white", "gray.800")} rounded="xl">
         <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
           <Box textAlign={{ lg: "center" }}>
             <chakra.p
               mt={0}
-              fontSize={{ base: "3xl", sm: "4xl" }}
+              fontSize={{ base: "2xl", sm: "4xl" }}
               lineHeight="8"
               fontWeight="extrabold"
               letterSpacing="tight"
@@ -86,11 +86,11 @@ export default function Features() {
 
           <Box mt={10}>
             <Stack
-              spacing={{ base: 1, md: 0 }}
+              spacing={{ base: 0, md: 0 }}
               display={{ md: "grid" }}
               gridTemplateColumns={{ md: "repeat(2,3fr)" }}
               gridColumnGap={{ md: 1 }}
-              gridRowGap={{ md: 10 }}
+              gridRowGap={{ md: 0 }}
             >
               <Feature
                 title="Action Title 1"
