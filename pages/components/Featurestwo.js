@@ -51,8 +51,8 @@ export default function Featurestwo() {
     <Flex
       bg={useColorModeValue("#F9FAFB", "gray.600")}
       p={20}
-      pl={{ base: '10', sm: '10', lg: '10', xl: '600'}}
-      pr={{ base: '10', sm: '10', lg: '10', xl: '600'}}
+      pl={{ base: '10', sm: '10', md: '10', lg: '10', xl: '10', '2xl': '600'}}
+      pr={{ base: '10', sm: '10', md: '10', lg: '10', xl: '10', '2xl': '600'}}
       pt="10"
       w="auto"
       justifyContent="center"

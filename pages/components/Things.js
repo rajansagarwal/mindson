@@ -8,14 +8,15 @@ import {
   SimpleGrid,
   useColorModeValue,
 } from "@chakra-ui/react";
+import { createBreakpoints } from "@chakra-ui/theme-tools"
 
 export default function Things() {
   return (
     <Flex
       bg={useColorModeValue("#F9FAFB", "gray.600")}
       p={20}
-      pl={{ base: '10', sm: '10', lg: '10', xl: '600'}}
-      pr={{ base: '10', sm: '10', lg: '10', xl: '600'}}
+      pl={{ base: '10', sm: '10', md: '10', lg: '10', xl: '10', '2xl': '600'}}
+      pr={{ base: '10', sm: '10', md: '10', lg: '10', xl: '10', '2xl': '600'}}
       rounded="md"
       w="full"
       justifyContent="center"
@@ -127,3 +128,12 @@ export default function Things() {
     </Flex>
   );
 }
+
+
+const breakpoints = createBreakpoints({
+    sm: "30em",
+    md: "48em",
+    lg: "62em",
+    xl: "80em",
+    "2xl": "96em",
+  })
