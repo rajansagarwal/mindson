@@ -16,8 +16,9 @@ const Overhead = () => {
       w="full"
       alignItems="center"
       justifyContent="center"
+      className="hiring"
     >
-     <Flex color={"gray.400"} bgGradient="linear(to-l, #7928CA,#FF0080)" bgClip="text" className="hiring">We Are Hiring! Learn more.</Flex>
+     <Flex color={"gray.400"} bgGradient="linear(to-l, #7928CA,#FF0080)" bgClip="text" >We Are Hiring! Learn more.</Flex>
     </Flex>
   );
 };
