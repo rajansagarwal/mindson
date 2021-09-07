@@ -16,7 +16,7 @@ import {
     return (
       <Flex
         w={'full'}
-        h={'100vh'}
+        h={'50vh'}
         backgroundImage={
           "url('https://cloud-68gh9ayi2-hack-club-bot.vercel.app/0hero.png')"
         }
