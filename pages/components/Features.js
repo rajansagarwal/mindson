@@ -69,7 +69,7 @@ export default function Features() {
               letterSpacing="tight"
               color={"gray.900"}
             >
-              <Text as={'span'} color={'green.400'} bgGradient="linear(to-l, #7928CA,#FF0080)" bgClip="text" fontSize={{ base: '30px', md: '40px' }}>
+              <Text as={'span'} color={'green.400'} bgGradient="linear(to-l, #7928CA,#FF0080)" bgClip="text" fontSize={{ base: '24px', md: '40px' }}>
               We Value Mental Health
             </Text>
             </chakra.p>
@@ -77,7 +77,7 @@ export default function Features() {
               mt={4}
               maxW="4xl"
               fontSize="xl"
-              mx={{ base: 'auto', lg: "auto" }}
+              mx={{ base: 'left', lg: "auto" }}
               color={"gray.400"}
             >
               *insert mission statement here*
