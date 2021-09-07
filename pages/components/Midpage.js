@@ -13,7 +13,7 @@ import {
         w={'full'}
         h={'40vh'}
         backgroundImage={
-          'url(https://images.unsplash.com/photo-1579208575657-c595a05383b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3750&q=80)'
+          'url(https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=4189&q=80)'
         }
         backgroundSize={'cover'}
         backgroundPosition={'center center'}>

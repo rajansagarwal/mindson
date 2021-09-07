@@ -10,6 +10,7 @@ import {
   Stack,
   GridItem,
 } from "@chakra-ui/react";
+
 export default function Featurestwo() {
   const Feature = (props) => {
     return (
@@ -72,14 +73,6 @@ export default function Featurestwo() {
         >
           <Box alignSelf="start">
             <chakra.h2
-              color={"brand.500"}
-              fontWeight="semibold"
-              textTransform="uppercase"
-              letterSpacing="wide"
-            >
-              Everything you need
-            </chakra.h2>
-            <chakra.h2
               mb={3}
               fontSize={{ base: "3xl", md: "4xl" }}
               fontWeight="extrabold"
@@ -88,7 +81,7 @@ export default function Featurestwo() {
               lineHeight="shorter"
               letterSpacing="tight"
             >
-              All-in-one platform
+              A few things we plan to do this year!
             </chakra.h2>
             <chakra.p
               mb={6}
@@ -96,8 +89,7 @@ export default function Featurestwo() {
               textAlign={{ base: "center", sm: "left" }}
               color={useColorModeValue("gray.600", "gray.500")}
             >
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+              Take a look at our most exciting initiatives that we plan to launch, catered towards impact. 
             </chakra.p>
           </Box>
           <GridItem colSpan={2}>
