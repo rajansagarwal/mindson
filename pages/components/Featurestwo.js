@@ -51,7 +51,7 @@ export default function Featurestwo() {
     <Flex
       bg={useColorModeValue("#F9FAFB", "gray.600")}
       p={20}
-      pl={{ base: '10', sm: '10', md: '10', lg: '10', xl: '10', '2xl': '600'}}
+      pl={{ base: '10', sm: '10', md: '10', lg: '10', xl: '100', '2xl': '600'}}
       pr={{ base: '10', sm: '10', md: '10', lg: '10', xl: '10', '2xl': '600'}}
       pt="10"
       w="auto"
@@ -61,9 +61,9 @@ export default function Featurestwo() {
       <Box
         shadow="xl"
         bg={useColorModeValue("white", "gray.800")}
-        px={8}
-        py={20}
         mx="auto"
+        pl={{ base: '10', sm: '10', md: '10', lg: '10', xl: '100', '2xl': '600'}}
+        pr={{ base: '10', sm: '10', md: '10', lg: '10', xl: '10', '2xl': '600'}}
       >
         <SimpleGrid
           alignItems="center"
