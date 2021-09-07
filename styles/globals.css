@@ -10,7 +10,7 @@ body, html {
   font-family: 'Mukta', sans-serif;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .hiring {
     display: none !important;
   }
