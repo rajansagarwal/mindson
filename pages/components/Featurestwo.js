@@ -14,7 +14,7 @@ import {
 export default function Featurestwo() {
   const Feature = (props) => {
     return (
-      <Flex>
+      <Flex shrink={0}>
         <Flex shrink={0}>
           <Icon
             boxSize={5}
@@ -51,19 +51,17 @@ export default function Featurestwo() {
     <Flex
       bg={useColorModeValue("#F9FAFB", "gray.600")}
       p={20}
-      pl={{ base: '10', sm: '10', md: '10', lg: '10', xl: '100', '2xl': '600'}}
-      pr={{ base: '10', sm: '10', md: '10', lg: '10', xl: '10', '2xl': '600'}}
+      px={{ base: '10', sm: '10', md: '10', lg: '10', xl: '10', '2xl': '20%'}}
       pt="10"
-      w="auto"
       justifyContent="center"
       alignItems="center"
     >
       <Box
         shadow="xl"
         bg={useColorModeValue("white", "gray.800")}
+        px={8}
+        py={20}
         mx="auto"
-        pl={{ base: '10', sm: '10', md: '10', lg: '10', xl: '100', '2xl': '600'}}
-        pr={{ base: '10', sm: '10', md: '10', lg: '10', xl: '10', '2xl': '600'}}
       >
         <SimpleGrid
           alignItems="center"

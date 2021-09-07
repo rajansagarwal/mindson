@@ -14,7 +14,7 @@ export default function Features() {
     return (
       <Flex>
         <Flex shrink={0}>
-          <Flex
+          <Box
             alignItems="center"
             justifyContent="center"
             h={12}
@@ -24,7 +24,7 @@ export default function Features() {
             color="white"
             pb="20"
           >
-          </Flex>
+          </Box>
         </Flex>
         <Box ml={6}>
           <chakra.dt
@@ -80,8 +80,8 @@ export default function Features() {
             <Stack
               spacing={{ base: 0, md: 0 }}
               display={{ md: "grid" }}
-              gridTemplateColumns={{ md: "repeat(2,3fr)" }}
-              gridColumnGap={{ md: 1 }}
+              gridTemplateColumns={{ md: "repeat(2,10fr)" }}
+              gridColumnGap={{ md: 0 }}
               gridRowGap={{ md: 0 }}
             >
               <Feature
