@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Heading, Link } from '@chakra-ui/layout';
 import Hero from './components/Hero';
+import Features from './components/Features';
+import More from './components/More';
 
 export default function Home() {
   return (
@@ -14,6 +16,9 @@ export default function Home() {
 
       <main>
           <Hero/>
+          <Features/>
+          <More/>
+
       </main>
 
     </div>
