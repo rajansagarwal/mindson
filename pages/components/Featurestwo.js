@@ -100,33 +100,27 @@ export default function Featurestwo() {
               gridColumnGap={{ md: 8 }}
               gridRowGap={{ md: 10 }}
             >
-              <Feature title="Invite team members">
-                Improve your conversion rates by monitoring exactly what’s going
-                on while your customers are in trial.{" "}
+              <Feature title="The Brain Freeze Podcast">
+                This podcast is none like the other, tackling mental health in the workplace, psychology, neuroscience and students.{" "}
               </Feature>
-              <Feature title="Unify your payments stack">
-                Manage all your online and offline sales in one place with a
-                single integration, simplifying reporting and reconciliation.
+              <Feature title="Minds On Hub">
+                A centralized set of resources for lessons, external clubs or inquiring readers on the internet.
               </Feature>
-              <Feature title="Own your in-store experience">
+              <Feature title="Minds On Publication">
                 {" "}
-                Provide a seamless customer experience across channels, like
-                reserving online and picking up in store.
+                An internal publication written by our Education Team and Writers. Apply to be a writer today!
               </Feature>
-              <Feature title="Grow your platform’s revenue">
+              <Feature title="District Mental Health Conf.">
                 {" "}
-                Add in-person payments to your platform or marketplace. Using
-                Terminal with Connect.{" "}
+                Turn your midns on at our Mental Health conference with speakers, events and competitions!{" "}
               </Feature>
-              <Feature title="Clear overview for efficient tracking">
+              <Feature title="Club Expansion!">
                 {" "}
-                Handle your subscriptions and transactions efficiently with the
-                clear overview in Dashboard. Fea
+                We hope to open new chapters across the board to share what we do and how we want to do it.
               </Feature>
-              <Feature title="Decide how you integrate Payments">
+              <Feature title="Teacher Resources">
                 {" "}
-                Love to code? Decide how you integrate Payments and build
-                advanced and reliable products yourself from scratch.{" "}
+                A set of resources built specifically for teachers, who are interested in the wellbeing of their students.{" "}
               </Feature>
             </Stack>
           </GridItem>
