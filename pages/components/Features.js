@@ -103,7 +103,7 @@ export default function Features() {
                   />
                 }
               >
-                Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here 
+                Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here <br/><br/>
               </Feature>
 
               <Feature
@@ -117,7 +117,7 @@ export default function Features() {
                   />
                 }
               >
-                Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here 
+                Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here <br/><br/>
               </Feature>
 
               <Feature
@@ -131,7 +131,7 @@ export default function Features() {
                   />
                 }
               >
-                Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here 
+                Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here <br/><br/>
               </Feature>
 
               <Feature
@@ -145,7 +145,7 @@ export default function Features() {
                   />
                 }
               >
-                Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here 
+                Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here Captivating Text Goes Here <br/><br/>
               </Feature>
             </Stack>
           </Box>
