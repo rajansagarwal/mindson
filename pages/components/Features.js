@@ -23,18 +23,9 @@ export default function Features() {
             bg={"brand.500"}
             color="white"
           >
-            <Icon
-              boxSize={4}
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              {props.icon}
-            </Icon>
           </Flex>
         </Flex>
-        <Box ml={4}>
+        <Box ml={6}>
           <chakra.dt
             fontSize="lg"
             fontWeight="medium"
@@ -59,7 +50,7 @@ export default function Features() {
       alignItems="center"
     >
       <Box py={10} bg={useColorModeValue("white", "gray.800")} rounded="xl">
-        <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
+        <Box maxW="7xl" mx="auto" px={{ base: 3, lg: 8 }}>
           <Box textAlign={{ lg: "center" }}>
             <chakra.p
               mt={0}

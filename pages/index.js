@@ -4,6 +4,8 @@ import { Heading, Link } from '@chakra-ui/layout';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import More from './components/More';
+import Overhead from './components/Overhead';
+import { Flex, Stack } from "@chakra-ui/react";
 
 export default function Home() {
   return (
@@ -15,8 +17,11 @@ export default function Home() {
       </Head>
 
       <main>
+      <Overhead/>
           <Hero/>
-          <Features/>
+          <Stack gridTemplateColumns={{ md: "repeat(2,3fr)" }}>
+          <Features/><Features/>
+          </Stack>
 
       </main>
 
