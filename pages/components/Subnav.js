@@ -2,6 +2,7 @@ import {
     Stack,
     Flex,
     Button,
+    ButtonGroup,
     Text,
     VStack,
     Box,
@@ -11,54 +12,24 @@ import {
     useColorModeValue,
     createIcon
   } from '@chakra-ui/react';
-  import Subnav from './Subnav.js';
-
   
-  export default function Hero() {
+  export default function Subnav() {
     return (
-      <Flex
-        w={'full'}
-        h={'40vh'}
-        backgroundImage={
-          "url('https://cloud-68gh9ayi2-hack-club-bot.vercel.app/0hero.png')"
-        }
-        backgroundSize={'cover'}
-        backgroundPosition={'center center'}>
-        <VStack
-          w={'full'}
-          justify={'center'}
-          px={useBreakpointValue({ base: 4, md: 8 })}
-          bgGradient={'linear(to-r, blackAlpha.600, transparent)'}
-          opacity={'1'}>
-          <Stack
-          as={Box}
-          textAlign={'center'}
-          spacing={{ base: 8, md: 14 }}
-          py={{ base: 20, md: 36 }}>
-          <Heading
-            fontWeight={800}
-            fontSize={{ base: '2xl', sm: '6xl', md: '8xl' }}
-            lineHeight={'110%'}
-            color={'white'}>
-            A Place To Grow, <br />We are  {" "}
-            <Text as={'span'} color={'green.400'} bgGradient="linear(to-l, #7928CA,#FF0080)" bgClip="text">
-              Minds On
-            </Text>
-          </Heading>
-          
-          <Stack
-            direction={'column'}
-            spacing={3}
-            align={'center'}
-            alignSelf={'center'}
-            position={'relative'}>
-            
-            <Box>
-              <Subnav/>
-            </Box>
-          </Stack>
-        </Stack>
-        </VStack>
+      <Flex>
+        <Stack spacing={4} direction="row" align="center">
+  <Button colorScheme="blackAlpha" size="lg">
+    Navigation 1
+  </Button>
+  <Button colorScheme="blackAlpha" size="lg">
+    Navigation 2
+  </Button>
+  <Button colorScheme="blackAlpha" size="lg">
+    Navigation 3
+  </Button>
+  <Button colorScheme="blackAlpha" size="lg">
+    Navigation 4
+  </Button>
+</Stack>
       </Flex>
     );
   }
