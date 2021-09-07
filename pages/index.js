@@ -5,6 +5,9 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import More from './components/More';
 import Overhead from './components/Overhead';
+import Things from './components/Things';
+import Midpage from './components/Midpage';
+import Featurestwo from './components/Featurestwo';
 import { Flex, Stack } from "@chakra-ui/react";
 
 export default function Home() {
@@ -19,9 +22,9 @@ export default function Home() {
       <main>
       <Overhead/>
           <Hero/>
-          <Stack gridTemplateColumns={{ md: "repeat(2,3fr)" }}>
-          <Features/><Features/>
-          </Stack>
+          <Features/><Featurestwo/>
+          <Midpage/>
+          <Things/>
 
       </main>
 

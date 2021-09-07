@@ -22,6 +22,7 @@ export default function Features() {
             rounded="md"
             bg={"brand.500"}
             color="white"
+            pb="20"
           >
           </Flex>
         </Flex>
@@ -108,9 +109,12 @@ export default function Features() {
               </Feature>
             </Stack>
           </Box>
+          
         </Box>
+       
       </Box>
     </Flex>
+    
   );
 }
 

@@ -5,6 +5,10 @@ body, html {
   background-color: pink;
   font-family: 'Lato', sans-serif;
 }
+.thigns {
+  font-family: 'Mukta', sans-serif !important;
+  border-radius: 20px !important;
+}
 
 .hiring {
   font-family: 'Mukta', sans-serif;
