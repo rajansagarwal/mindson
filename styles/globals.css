@@ -9,3 +9,9 @@ body, html {
 .hiring {
   font-family: 'Mukta', sans-serif;
 }
+
+@media (max-width: 1024px) {
+  .hiring {
+    display: none !important;
+  }
+}
