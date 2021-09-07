@@ -37,7 +37,7 @@ import {
           py={{ base: 25, md: 36 }}>
           <Heading
             fontWeight={800}
-            fontSize={{ base: '40px', sm: '10xl', md: '8xl' }}
+            fontSize={{ base: '40px', sm: '20px', md: '6xl', lg: '6xl', xl: '8xl' }}
             lineHeight={'110%'}
             color={'white'} >
             A Place To Grow, <br />We are  {" "}
