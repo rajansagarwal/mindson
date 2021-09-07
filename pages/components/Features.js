@@ -53,7 +53,7 @@ export default function Features() {
   return (
     <Flex
       bg={useColorModeValue("#F9FAFB", "gray.600")}
-      p={20}
+      p={10}
       w="auto"
       justifyContent="center"
       alignItems="center"
@@ -62,7 +62,7 @@ export default function Features() {
         <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
           <Box textAlign={{ lg: "center" }}>
             <chakra.p
-              mt={2}
+              mt={0}
               fontSize={{ base: "3xl", sm: "4xl" }}
               lineHeight="8"
               fontWeight="extrabold"
@@ -75,7 +75,7 @@ export default function Features() {
             </chakra.p>
             <chakra.p
               mt={4}
-              maxW="2xl"
+              maxW="4xl"
               fontSize="xl"
               mx={{ lg: "auto" }}
               color={"gray.400"}
@@ -86,10 +86,10 @@ export default function Features() {
 
           <Box mt={10}>
             <Stack
-              spacing={{ base: 10, md: 0 }}
+              spacing={{ base: 1, md: 0 }}
               display={{ md: "grid" }}
-              gridTemplateColumns={{ md: "repeat(2,1fr)" }}
-              gridColumnGap={{ md: 8 }}
+              gridTemplateColumns={{ md: "repeat(2,3fr)" }}
+              gridColumnGap={{ md: 1 }}
               gridRowGap={{ md: 10 }}
             >
               <Feature
@@ -154,3 +154,4 @@ export default function Features() {
     </Flex>
   );
 }
+

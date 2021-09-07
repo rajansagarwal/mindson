@@ -12,7 +12,7 @@ import {
     createIcon
   } from '@chakra-ui/react';
   import Subnav from './Subnav.js';
-
+  import { createBreakpoints } from "@chakra-ui/theme-tools"
   
   export default function Hero() {
     return (
@@ -34,12 +34,12 @@ import {
           as={Box}
           textAlign={'center'}
           spacing={{ base: 8, md: 14 }}
-          py={{ base: 20, md: 36 }}>
+          py={{ base: 25, md: 36 }}>
           <Heading
             fontWeight={800}
-            fontSize={{ base: '2xl', sm: '6xl', md: '8xl' }}
+            fontSize={{ base: '40px', sm: '10xl', md: '8xl' }}
             lineHeight={'110%'}
-            color={'white'}>
+            color={'white'} >
             A Place To Grow, <br />We are  {" "}
             <Text as={'span'} color={'green.400'} bgGradient="linear(to-l, #7928CA,#FF0080)" bgClip="text">
               Minds On
@@ -77,3 +77,11 @@ import {
   });
 
   
+
+  const breakpoints = createBreakpoints({
+    sm: "30em",
+    md: "48em",
+    lg: "62em",
+    xl: "80em",
+    "2xl": "96em",
+  })

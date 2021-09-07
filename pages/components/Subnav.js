@@ -12,22 +12,31 @@ import {
     useColorModeValue,
     createIcon
   } from '@chakra-ui/react';
+  import Link from 'next/link'
   
   export default function Subnav() {
     return (
       <Flex>
-        <Stack spacing={4} direction="row" align="center">
-  <Button colorScheme="blackAlpha" size="lg">
-    Navigation 1
+        <Stack spacing={3} direction="row" align="center">
+  <Button colorScheme="blackAlpha" size="md" fontSize={{ base: '12px', sm: '15px', md: '20px' }}>
+      <Link href="/">
+    Home
+    </Link>
   </Button>
-  <Button colorScheme="blackAlpha" size="lg">
-    Navigation 2
+  <Button colorScheme="blackAlpha" size="md" fontSize={{ base: '12px', sm: '15px', md: '20px' }}>
+  <Link href="/">
+    About
+    </Link>
   </Button>
-  <Button colorScheme="blackAlpha" size="lg">
-    Navigation 3
+  <Button colorScheme="blackAlpha" size="md" fontSize={{ base: '12px', sm: '15px', md: '20px' }}>
+  <Link href="/Landing">
+    Initiatives
+    </Link>
   </Button>
-  <Button colorScheme="blackAlpha" size="lg">
-    Navigation 4
+  <Button colorScheme="blackAlpha" size="md" fontSize={{ base: '12px', sm: '15px', md: '20px' }}>
+  <Link href="/">
+    Hub
+    </Link>
   </Button>
 </Stack>
       </Flex>

@@ -19,7 +19,7 @@ const More = () => {
     >
       <Box
         mx="auto"
-        px={8}
+        px={4}
         py={4}
         rounded="lg"
         shadow="lg"

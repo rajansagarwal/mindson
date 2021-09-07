@@ -3,9 +3,9 @@ import Image from 'next/image'
 import { Heading, Link } from '@chakra-ui/layout';
 import Hero from './components/Hero';
 import Features from './components/Features';
-import More from './components/More';
+import Subnav from './components/Subnav';
 
-export default function Home() {
+export default function Landing() {
   return (
     <div>
       <Head>
@@ -15,8 +15,7 @@ export default function Home() {
       </Head>
 
       <main>
-          <Hero/>
-          <Features/>
+<Subnav/>
 
       </main>
 
