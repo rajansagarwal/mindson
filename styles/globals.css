@@ -19,3 +19,9 @@ body, html {
     display: none !important;
   }
 }
+
+.teamimg {
+  width: 25px;
+  height: auto;
+  border-radius: 30px;
+}
