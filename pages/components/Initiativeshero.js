@@ -2,7 +2,6 @@ import {
     Stack,
     Flex,
     Button,
-    ButtonGroup,
     Text,
     VStack,
     Box,
@@ -12,33 +11,51 @@ import {
     useColorModeValue,
     createIcon
   } from '@chakra-ui/react';
-  import Link from 'next/link'
+  import Subnav from './Subnav.js';
+  import { createBreakpoints } from "@chakra-ui/theme-tools"
   
-  export default function Subnav() {
+  export default function Abouthero() {
     return (
-      <Flex>
-        <Stack spacing={3} direction="row" align="center">
-  <Button colorScheme="blackAlpha" size="md" fontSize={{ base: '12px', sm: '15px', md: '20px' }}>
-      <Link href="/">
-    Home
-    </Link>
-  </Button>
-  <Button colorScheme="blackAlpha" size="md" fontSize={{ base: '12px', sm: '15px', md: '20px' }}>
-  <Link href="/about">
-    About
-    </Link>
-  </Button>
-  <Button colorScheme="blackAlpha" size="md" fontSize={{ base: '12px', sm: '15px', md: '20px' }}>
-  <Link href="/initiatives">
-    Initiatives
-    </Link>
-  </Button>
-  <Button colorScheme="blackAlpha" size="md" fontSize={{ base: '12px', sm: '15px', md: '20px' }}>
-  <Link href="/">
-    Hub
-    </Link>
-  </Button>
-</Stack>
+      <Flex
+        w={'full'}
+        h={'40vh'}
+        backgroundImage={
+          "url('https://images.unsplash.com/photo-1539404234905-48cf3d73aec5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3750&q=80')"
+        }
+        backgroundSize={'cover'}
+        backgroundPosition={'center center'}>
+        <VStack
+          w={'full'}
+          justify={'center'}
+          px={useBreakpointValue({ base: 4, md: 8 })}
+          bgGradient={'linear(to-r, blackAlpha.600, transparent)'}
+          opacity={'1'}>
+          <Stack
+          as={Box}
+          textAlign={'center'}
+          spacing={{ base: 8, md: 14 }}
+          py={{ base: 25, md: 36 }}>
+          <Heading
+            fontWeight={800}
+            fontSize={{ base: '40px', sm: '20px', md: '6xl', lg: '6xl', xl: '8xl' }}
+            lineHeight={'110%'}
+            color={'white'} >
+            A Few Initiatives
+          </Heading>
+          
+          <Stack
+            direction={'column'}
+            spacing={3}
+            align={'center'}
+            alignSelf={'center'}
+            position={'relative'}>
+            
+            <Box>
+              <Subnav/>
+            </Box>
+          </Stack>
+        </Stack>
+        </VStack>
       </Flex>
     );
   }
@@ -57,3 +74,11 @@ import {
   });
 
   
+
+  const breakpoints = createBreakpoints({
+    sm: "30em",
+    md: "48em",
+    lg: "62em",
+    xl: "80em",
+    "2xl": "96em",
+  })
