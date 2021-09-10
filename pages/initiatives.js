@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Heading, Link } from '@chakra-ui/layout';
 import Initiativeshero from './components/Initiativeshero';
 import Features from './components/Features';
-import Overhead from './components/OVerhead';
+import Overhead from './components/Overhead';
 import Team from './components/Team';
 import Change from './components/Change';
 import Midpage from './components/Midpage';
