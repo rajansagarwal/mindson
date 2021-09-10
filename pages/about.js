@@ -20,7 +20,7 @@ export default function About() {
       </Head>
 
       <main>
-      <Overhead/>
+      <Overhead/> 
           <Abouthero/>
           <Change/>
           <Team/>
